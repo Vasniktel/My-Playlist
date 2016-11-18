@@ -1,0 +1,32 @@
+<!-- © 2015-2016 Vasniktel (Mez0_Teck) -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>My Playlist</title>
+</head>
+<body>
+<h1 align="center"><span class="myPls">My Playlist</span></h1>
+<div align="center" id="streamName">&nbsp;</div>
+<div align="center" id="props">&nbsp;</div>
+<hr>
+<p>&nbsp;&nbsp;<span class="functions">F.A.Q.</span></p>
+<ol>
+<li><p>Ссылка на поток: поддерживаются также pls и m3u ссылки.</p></li>
+<li><p>Имя картинки: картинка должна лежать в папке "img"; пишите "none", если картинки нет; размер картинки может быть любой, но я использую 16x16 пикс.; картинка отображаться не будет, если её формат не GIF, JPEG или PNG.</p></li>
+<li><p>Чтобы удалить станцию, просто очистите поля имени, ссылки и картинки нужной станции.</p></li>
+</ol>
+<script src="playlist.mpls" type="text/javascript"></script>
+<script src="js/mpls.js" type="text/javascript"></script>
+<form method="post" name="save" action="http://mypls.16mb.com/mpls/">
+<input type="hidden" name="hidden" value="">
+</form>
+<p align='center'><button onclick="saveFile();" id="update"><span class="button">Сохранить</span></button>
+<button onclick="cancel();" id="update"><span class="button">Отмена</span></button></p>
+<hr>
+&copy; 2015-2016 Mez0_Teck | <a href='lic/License.html' style='color: black' target='_blank'><u>Лицензионное соглашение.</u></a>
+<object name="psp" type="application/x-psp-extplugin"></object>
+</body>
+</html>
