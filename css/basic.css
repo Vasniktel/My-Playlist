@@ -1,0 +1,74 @@
+/* © 2015-2016 Vasniktel (Mez0_Teck) */
+
+body {
+	background: rgb(50, 54, 50);
+	
+	/* Для использования картинки удалите CSS комментарии из двух следующих строк и закомментируйте предыдущую. */
+	
+	/* background-image: url("../img/Background.jpg"); */
+	/* background-attachment: fixed; */
+}
+p {
+	color: white;
+}
+h1,h2 {
+	font-weight: normal;
+}
+ol {
+	color: white;
+}
+button {
+	width: 70px;
+	height: 18px;
+}
+span {
+	font-size: x-large;
+}
+.button {
+	font-size: large;
+	text-align: center;
+}
+.inputText {
+	width: 200px;
+	height: 19px;
+}
+.inputButtons {
+	width: 60px;
+	height: 19px;
+}
+.link {
+	color: white;
+}
+.myPls {
+	font-size: 150%;
+	font-family: Arial;
+	color: red;
+}
+.functions {
+	font-size: xx-large;
+	font-family: Arial;
+}
+#streamName {
+	color: white;
+}
+#props {
+	color: white;
+	font-size: medium;
+}
+.timerText {
+	width: 75px;
+	height: 19px;
+}
+#update {
+	height: 18px;
+	width: 80px;
+}
+#count {
+	font-size: large;
+}
+input[name="header"] {
+	margin-left: 26px;
+}
+input[name="image"] {
+	margin-left: 21px;
+}
