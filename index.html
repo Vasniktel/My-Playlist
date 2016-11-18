@@ -1,0 +1,46 @@
+<!-- © 2015-2016 Vasniktel (Mez0_Teck) -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>My Playlist</title>
+</head>
+<body>
+<h1 align="center"><span class="myPls">My Playlist</span></h1>
+<div align="center" id="streamName">&nbsp;</div>
+<div align="center" id="props">&nbsp;</div>
+<hr>
+<p>&nbsp;&nbsp;<span class="functions">Функции:</span></p>
+<ol>
+<li><p><a href="file:/PSP/SYSTEM/BROWSER/bookmarks.html" target="_blank" class="link"><u>Закладки.</u></a></p></li>
+<li><p>Скриншотер (нажмите START+R).</p></li>
+<li><form action="http://www.google.com/custom" method="get" target="_blank" id="q">
+<p><input type="text" value="Google" name="q" class="inputText">
+<input type="submit" value="Поиск" class="inputButtons"></p>
+</form></li>
+<li><form name="urlForm">
+<p><input type="text" name="urlInput" value="http://" class="inputText">
+<input type="button" value="Перейти" onclick='openPage();' class="inputButtons"></p>
+</form></li>
+<li><form name="timerForm">
+<p>Таймер сна: <input type="text" name="timerInput" class="timerText"> мин.
+<input type="button" value="Запуск" onclick='timer();' class="inputButtons">
+<input type="reset" value="Сброс" onclick='clearTimer();' class="inputButtons">&nbsp;
+<span id="count">&nbsp;</span></p>
+</form></li>
+<li><form method="post" name="update" action="http://mypls.16mb.com/updates/">
+<input type="hidden" name="hidden" value="">
+</form>
+<p><button onclick='updater();' id="update"><span class="button">Обновления</span></button>
+</p></li>
+</ol>
+<hr>
+<p align="center"><a href="#" onclick="location.href = 'mpls.html';" class="link"><u>Редактировать плейлист</u></a></p>
+<script language="JavaScript" src="playlist.mpls"></script>
+<script language="JavaScript" src="js/radioplayer.js"></script>
+&copy; 2015-2016 Mez0_Teck | <a href='lic/License.html' style='color: black' target='_blank'><u>Лицензионное соглашение.</u></a>
+<object name="psp" type="application/x-psp-extplugin"></object>
+</body>
+</html>
