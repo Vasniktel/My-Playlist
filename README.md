@@ -1,7 +1,7 @@
 # My-Playlist 
 *My Playlist интернет радио плеер для PSP*
 
----
+![MyPlaylist](screenshots/asset.png)
 
 Я решил сделать интернет-плеер для PSP, чтобы не пользоваться специальными программами.
 
