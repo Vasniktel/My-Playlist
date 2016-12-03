@@ -1,13 +1,13 @@
 // © 2015-2016 Vasniktel (Mez0_Teck)
 
-/**
+/* 
  * Это файл, с помощью которого можно добавлять станции в плеер!
- *
+ *	
  *	Описание:
  *
  *		1. header - название станции;
  *		2. url - ссылка на поток (поддерживаются также pls и m3u ссылки);
- *		3. image - имя картинки (картинка должна лежать в папке 'img'; пишите 'none', если картинки нет);
+ *		3. image - имя картинки (картинка должна лежать в папке "img"; пишите "none", если картинки нет);
  *		   размер картинки может быть любой, но я использую 16x16 пикс.;
  *		   картинка отображаться не будет, если её формат не GIF, JPEG или PNG.
  *
@@ -21,74 +21,74 @@
 var playlist = [
 
 	{
-		header: '112 UA',
-		url: 'http://audio.112.ua:8000/live112',
-		image: '112.png'
+		header: "112 UA",
+		url: "http://audio.112.ua:8000/live112",
+		image: "112.png"
 	},
 	{
-		header: 'Голос Свободи',
-		url: 'http://holos.fm:8000/holos',
-		image: 'favicon4.png'
+		header: "Голос Свободи",
+		url: "http://holos.fm:8000/holos",
+		image: "favicon4.png"
 	},
 	{
-		header: 'Эхо Москвы',
-		url: 'http://81.19.85.197/echo.mp3',
-		image: 'favicon1.png'
+		header: "Эхо Москвы",
+		url: "http://81.19.85.197/echo.mp3",
+		image: "favicon1.png"
 	},
 	{
-		header: 'Радио Свобода (рус)',
-		url: 'http://rfe-channel-04.akacast.akamaistream.net/7/885/229654/v1/ibb.akacast.akamaistream.net/rfe_channel_04',
-		image: 'favicon.png'
+		header: "Радио Свобода (рус)",
+		url: "http://rfe-channel-04.akacast.akamaistream.net/7/885/229654/v1/ibb.akacast.akamaistream.net/rfe_channel_04",
+		image: "favicon.png"
 	},
 	{
-		header: 'Радіо Свобода (укр)',
-		url: 'http://rfe-channel-07.akacast.akamaistream.net/7/886/229657/v1/ibb.akacast.akamaistream.net/rfe_channel_07',
-		image: 'favicon.png'
+		header: "Радіо Свобода (укр)",
+		url: "http://rfe-channel-07.akacast.akamaistream.net/7/886/229657/v1/ibb.akacast.akamaistream.net/rfe_channel_07",
+		image: "favicon.png"
 	},
 	{
-		header: 'Радио Шансон (Киев)',
-		url: 'http://217.20.164.170:8002/',
-		image: 'favicon2.png'
+		header: "Радио Шансон (Киев)",
+		url: "http://217.20.164.170:8002/",
+		image: "favicon2.png"
 	},
 	{
-		header: 'Радио Relax (Украина)',
-		url: 'http://online-radiorelax2.tavrmedia.ua/RadioRelax',
-		image: 'favicon7.png'
+		header: "Радио Relax (Украина)",
+		url: "http://online-radiorelax2.tavrmedia.ua/RadioRelax",
+		image: "favicon7.png"
 	},
 	{
-		header: 'Громадське Радіо',
-		url: 'http://91.218.212.67:8000/stream-ps-hi',
-		image: 'favicon3.png'
+		header: "Громадське Радіо",
+		url: "http://91.218.212.67:8000/stream",
+		image: "favicon3.png"
 	},
 	{
-		header: 'Радіо ЕРА',
-		url: 'http://212.26.129.2:8000/era96',
-		image: 'favicon5.png'
+		header: "Радіо ЕРА",
+		url: "http://212.26.129.2:8000/era96",
+		image: "favicon5.png"
 	},
 	{
-		header: 'Радио Вести Украина',
-		url: 'http://212.26.132.60:8000/vesti_mp3',
-		image: 'favicon6.png'
+		header: "Радио Вести Украина",
+		url: "http://212.26.132.60:8000/vesti_mp3",
+		image: "favicon6.png"
 	},
 	{
-		header: 'УР-1',
-		url: 'http://nrcu.gov.ua:8000/ur1-mp3',
-		image: 'UR_11.png'
+		header: "УР-1",
+		url: "http://nrcu.gov.ua:8000/ur1-mp3",
+		image: "UR_11.png"
 	},
 	{
-		header: 'УР-2 Промінь',
-		url: 'http://nrcu.gov.ua:8000/ur2-mp3',
-		image: 'ur2_logo.png'
+		header: "УР-2 Промінь",
+		url: "http://nrcu.gov.ua:8000/ur2-mp3",
+		image: "ur2_logo.png"
 	},
 	{
-		header: 'УР-3 Культура',
-		url: 'http://nrcu.gov.ua:8000/ur3-mp3',
-		image: 'UR_31.png'
+		header: "УР-3 Культура",
+		url: "http://nrcu.gov.ua:8000/ur3-mp3",
+		image: "UR_31.png"
 	},
 	{
-		header: 'ВСРУ',
-		url: 'http://nrcu.gov.ua:8000/ur4-mp3',
-		image: 'BCPY_2.png'
+		header: "ВСРУ",
+		url: "http://nrcu.gov.ua:8000/ur4-mp3",
+		image: "BCPY_2.png"
 	},
 
 ];
