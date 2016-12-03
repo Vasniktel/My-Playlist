@@ -51,11 +51,6 @@ var playlist = [
 		image: 'favicon2.png'
 	},
 	{
-		header: 'Davidzon Radio',
-		url: 'http://radioserver.abinet.com:8800/dr.mp3',
-		image: 'favicon8.png'
-	},
-	{
 		header: 'Радио Relax (Украина)',
 		url: 'http://online-radiorelax2.tavrmedia.ua/RadioRelax',
 		image: 'favicon7.png'
