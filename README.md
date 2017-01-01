@@ -1,5 +1,5 @@
 # My Playlist 
-*My Playlist интернет радио плеер для PSP*
+*My Playlist — интернет радио плеер для PSP*
 
 ![My Playlist](screenshots/asset.png)
 
