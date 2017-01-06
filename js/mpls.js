@@ -66,9 +66,9 @@ function saveFile() {
 		sendData+="array('name'=>'"+header+"','url'=>'"+url+"','image'=>'"+image+"'),";
 	}
 	sendData+=");";
-	if (sendData == '();')
-		alert('Вы не ввели ни одной станции.');
-	else {
+	if (sendData == '();' && !confirm('Вы не указали ни одной станции. Продолжить?'));
+	else
+	{
 		document.save.hidden.value = sendData;
 		document.save.submit();
 	}

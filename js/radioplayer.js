@@ -1,12 +1,12 @@
 // © 2015-2016 Vasniktel (Mez0_Teck)
 
 var VERS = {
-	index:3.01,
+	index:3.2,
 	mpls:3.01,
 	lic:2.7,
 	css:2.9,
 	img:2.7,
-	js:3.14,
+	js:3.15,
 	icon:2.7
 };
 
@@ -71,7 +71,7 @@ function count () {
 	countId = setTimeout('count()',1000);
 }
 
-if (typeof(playlist) == 'undefined') {
+if (typeof(playlist) == 'undefined' || playlist.length == 0) {
 
 	if (confirm("Хотите добавить радиостанции в плеер?"))
 		document.location.href = 'mpls.html';
@@ -92,7 +92,7 @@ if (typeof(playlist) == 'undefined') {
 		else
 			doc += "<p><img src="+image+">&nbsp;<span name='head'>"+header+"</span>";
 		if (url === svUrl)
-			doc += "<br>&nbsp;&nbsp;&emsp;<a href='http://mypls.16mb.com/schedule/' target='_blank' class='link'><u>Розклад програм</u></a>";
+			doc += "<br>&nbsp;&emsp;<a href='http://vasniktel.pp.ua/mypls/schedule/' target='_blank' class='link'><u>Розклад програм</u></a>";
 		doc += "</p><button onclick='stream("+i+");'><span class='button'>СТАРТ</span></button>&nbsp;";
 		doc += "<button onclick='stop();'><span class='button'>СТОП</span></button><hr>";
 		doc += "</div>";
